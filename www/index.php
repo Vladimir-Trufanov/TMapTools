@@ -18,6 +18,17 @@
 <meta charset="UTF-8">
 <title>Коллекция примеров для сайта с картами в формате тайлов OSM</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
 <link rel="stylesheet" href="SmartMenus/site.css">
 <link rel="stylesheet" href="SmartMenus/sm-core-css.css">
 <link rel="stylesheet" href="SmartMenus/sm-blue.css">
@@ -49,8 +60,8 @@ $(document).ready(function() {
          
          <li><a href="#">LeafletJS - работа с картами</a>
             <ul>
-               <li><a href="/_LeafletJS/index.html">LeafletJS — Начало работы</a></li>
-               <li><a href="#">LeafletJS — Проба2</a></li>     
+               <li><a href="/_LeafletJS/LeafletJS.html">LeafletJS — Базовый пример</a></li>
+               <li><a href="/_Lososinnoe/Lososinnoe.html">Lososinnoe — Учебная карта</a></li>     
             </ul>
          </li>
         
