@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Уроки на Виданской-17б</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+      <link rel = "stylesheet" href = "/LeafletJS/leaflet.css"/>
+      <script src = "/LeafletJS/leaflet.js"></script>
+   </head>
+   <body>
+      <!-- Создаем контейнер, чтобы удержать карту --> 
+      <div id = "map" style = "width: 900px; height: 580px"></div>
+      <script>
+         // Задаем параметры карты
+         var mapOptions = 
+         {
+            //center: [61.80200,34.32948],
+            center: [61.802005577165538,34.329488190742296],
+            zoom: 17
+         }
+         // Создаем объект карты:
+         // а) переменная String, представляет идентификатор DOM или
+         // экземпляр элемента <div>. Здесь элемент <div> является 
+         // HTML-контейнером для хранения карты;
+         // б) необязательный литерал объекта с параметрами карты - объект 
+         // mapOptions, созданный на предыдущем шаге.
+         var map = new L.map('map', mapOptions);
+         // Создаем объект слоя - экземпляр класса TileLayer, здесь:
+         //    18 - OSM
+         //    17 - Google космоснимки HD
+         //    16 - Яндекс-карты
+         //    15 - ОСМ серая
+         //    14 - ГГЦ250
+         var layer = new L.TileLayer('http://localhost:85/_Vidanskaja17b/Vidanskaja17b/{z}/{x}/{y}.png');
+         // Прикрепляем (добавляем) слой к карте.
+         map.addLayer(layer);
+      </script>
+   </body>
+</html>
