@@ -4739,15 +4739,14 @@ TMapTools
 2=www\_LeafletJS\LeafletJS.html
 3=www\_Lososinnoe\Lososinnoe.html
 4=www\_Vidanskaja17b\Vidanskaja17b.html
-5=..\Users\Евгеньевич\Downloads\leaflet\leaflet.css
 [Selected Project Files]
 Main=
 Selected=www\_Vidanskaja17b\Vidanskaja17b.html
 [www\ViewEnviron.php]
-TopLine=4
+TopLine=2
 Caret=111,39
 [www\index.php]
-TopLine=52
+TopLine=51
 Caret=13,87
 [www\_LeafletJS\LeafletJS.html]
 TopLine=1
@@ -4757,7 +4756,4 @@ TopLine=1
 Caret=1,9
 [www\_Vidanskaja17b\Vidanskaja17b.html]
 TopLine=1
-Caret=40,8
-[..\Users\Евгеньевич\Downloads\leaflet\leaflet.css]
-TopLine=335
-Caret=1,1
+Caret=1,17
