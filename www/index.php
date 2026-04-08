@@ -68,6 +68,12 @@ $(document).ready(function() {
          <li><a href="#">Уроки на Виданской-17б</a>
             <ul>
                <li><a href="/_Vidanskaja17b/Vidanskaja17b.html">Начальные условия</a></li>
+            </ul>
+         </li>
+        
+         <li><a href="#">Упражнения с файлами GPX</a>
+            <ul>
+               <li><a href="/_uprazhneniya-s-fajlami-gpx/Vidanskaja17b.html">Начальные условия</a></li>
                <li><a href="#">---Стандартная штуковина</a></li>
                <li><a href="#">---Продвинутая штуковина</a></li>
             </ul>

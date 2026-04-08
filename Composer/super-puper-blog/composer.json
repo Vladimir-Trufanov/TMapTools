@@ -1,0 +1,11 @@
+{
+    "name": "vendor/puper",
+    "description": "ProbaComposer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Puper\\": "src/"
+        }
+    },
+    "require": {}
+}

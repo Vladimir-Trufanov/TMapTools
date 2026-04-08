@@ -32,9 +32,9 @@ TMapTools
 			Favicon\favicon.doc
 			Favicon\Maps-icon2.png
 		+www
-			+_LeafletJS
+			-_LeafletJS
 				www\_LeafletJS\LeafletJS.html
-			-_Lososinnoe
+			+_Lososinnoe
 				-Lososinnoe
 					-10
 						-607
@@ -4325,36 +4325,78 @@ TMapTools
 							www\_Lososinnoe\Lososinnoe\9\305\144.png
 					www\_Lososinnoe\Lososinnoe\tiles.json
 				www\_Lososinnoe\Lososinnoe.html
-			+_Vidanskaja17b
+			-_Vidanskaja17b
 				-Vidanskaja17b
 					-14
+						-9753
+							www\_Vidanskaja17b\Vidanskaja17b\14\9753\4588.png
+							www\_Vidanskaja17b\Vidanskaja17b\14\9753\4589.png
 						-9754
+							www\_Vidanskaja17b\Vidanskaja17b\14\9754\4588.png
 							www\_Vidanskaja17b\Vidanskaja17b\14\9754\4589.png
 					-15
+						-19507
+							www\_Vidanskaja17b\Vidanskaja17b\15\19507\9177.png
+							www\_Vidanskaja17b\Vidanskaja17b\15\19507\9178.png
+							www\_Vidanskaja17b\Vidanskaja17b\15\19507\9179.png
 						-19508
+							www\_Vidanskaja17b\Vidanskaja17b\15\19508\9177.png
 							www\_Vidanskaja17b\Vidanskaja17b\15\19508\9178.png
+							www\_Vidanskaja17b\Vidanskaja17b\15\19508\9179.png
 						-19509
+							www\_Vidanskaja17b\Vidanskaja17b\15\19509\9177.png
 							www\_Vidanskaja17b\Vidanskaja17b\15\19509\9178.png
+							www\_Vidanskaja17b\Vidanskaja17b\15\19509\9179.png
 					-16
+						-39015
+							www\_Vidanskaja17b\Vidanskaja17b\16\39015\18355.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39015\18356.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39015\18357.png
+						-39016
+							www\_Vidanskaja17b\Vidanskaja17b\16\39016\18355.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39016\18356.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39016\18357.png
 						-39017
 							www\_Vidanskaja17b\Vidanskaja17b\16\39017\18355.png
 							www\_Vidanskaja17b\Vidanskaja17b\16\39017\18356.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39017\18357.png
 						-39018
 							www\_Vidanskaja17b\Vidanskaja17b\16\39018\18355.png
 							www\_Vidanskaja17b\Vidanskaja17b\16\39018\18356.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39018\18357.png
+						-39019
+							www\_Vidanskaja17b\Vidanskaja17b\16\39019\18355.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39019\18356.png
+							www\_Vidanskaja17b\Vidanskaja17b\16\39019\18357.png
 					-17
+						-78033
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36711.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36712.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36713.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36714.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36715.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78033\36716.png
 						-78034
+							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36711.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36712.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36713.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36714.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36715.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78034\36716.png
 						-78035
+							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36711.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36712.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36713.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36714.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36715.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78035\36716.png
 						-78036
+							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36711.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36712.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36713.png
 							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36714.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36715.png
+							www\_Vidanskaja17b\Vidanskaja17b\17\78036\36716.png
 					-18
 						-156056
 							www\_Vidanskaja17b\Vidanskaja17b\18\156056\73422.png
@@ -4709,6 +4751,15 @@ TMapTools
 				www\Jsx\jquery-ui.min.css
 				www\Jsx\jquery-ui.min.js
 			-LeafletJS
+				-images
+					www\LeafletJS\images\layers.png
+					www\LeafletJS\images\layers-2x.png
+					www\LeafletJS\images\marker-icon.png
+					www\LeafletJS\images\marker-icon-2x.png
+					www\LeafletJS\images\marker-shadow.png
+				www\LeafletJS\leaflet.css
+				www\LeafletJS\leaflet.js
+				www\LeafletJS\leaflet.js.map
 				www\LeafletJS\leaflet073.css
 				www\LeafletJS\leaflet073.js
 			-SmartMenus
@@ -4732,28 +4783,17 @@ TMapTools
 			Материалы\как использовать leaflet оффлайн.lnk
 			Материалы\Создаем карты для сайта.doc
 		README.md
+		README.md.backup
 		TMapTools.ppr
 [Open project files]
-0=www\ViewEnviron.php
-1=www\index.php
-2=www\_LeafletJS\LeafletJS.html
-3=www\_Lososinnoe\Lososinnoe.html
-4=www\_Vidanskaja17b\Vidanskaja17b.html
+0=www\index.php
+1=www\_Lososinnoe\Lososinnoe.html
 [Selected Project Files]
 Main=
-Selected=www\_Vidanskaja17b\Vidanskaja17b.html
-[www\ViewEnviron.php]
-TopLine=2
-Caret=111,39
+Selected=www\index.php
 [www\index.php]
-TopLine=51
-Caret=13,87
-[www\_LeafletJS\LeafletJS.html]
-TopLine=1
-Caret=7,16
+TopLine=50
+Caret=50,74
 [www\_Lososinnoe\Lososinnoe.html]
 TopLine=1
-Caret=1,9
-[www\_Vidanskaja17b\Vidanskaja17b.html]
-TopLine=1
-Caret=1,17
+Caret=1,1

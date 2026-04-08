@@ -1,0 +1,12 @@
+{
+    "name": "myproject/app",
+    "authors": [
+        {
+            "name": "Труфанов Владимир Евгеньевич",
+            "email": "44765119+Vladimir-Trufanov@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.11"
+    }
+}
