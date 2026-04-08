@@ -1,0 +1,12 @@
+{
+    "name": "sibyx/app",
+    "authors": [
+        {
+            "name": "Труфанов Владимир Евгеньевич",
+            "email": "tve58@inbox.ru"
+        }
+    ],
+    "require": {
+        "sibyx/phpgpx": "1.3.0"
+    }
+}
