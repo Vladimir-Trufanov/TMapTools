@@ -1,6 +1,6 @@
 Array
 (
-    [_FCGI_X_PIPE_] => \\.\pipe\IISFCGI-a4a6968f-781c-4ffd-a894-e410d11bac9d
+    [_FCGI_X_PIPE_] => \\.\pipe\IISFCGI-4fe6bc6a-0bc7-496e-8d4e-1bf4e1e38568
     [PHP_FCGI_MAX_REQUESTS] => 200
     [PHPRC] => C:\PHP\
     [ALLUSERSPROFILE] => C:\ProgramData
@@ -45,15 +45,15 @@ Array
     [SERVER_PORT] => 88
     [SERVER_NAME] => localhost
     [SCRIPT_NAME] => /index.php
-    [SCRIPT_FILENAME] => C:\TMapTools\Composer\myproject\level1\index.php
+    [SCRIPT_FILENAME] => C:\TMapTools\www\_uprazhneniya-s-fajlami-gpx\Sibyx\ProbaSibyx\index.php
     [REQUEST_URI] => /
     [REQUEST_METHOD] => GET
     [REMOTE_USER] => 
-    [REMOTE_PORT] => 49913
+    [REMOTE_PORT] => 62770
     [REMOTE_HOST] => ::1
     [REMOTE_ADDR] => ::1
     [QUERY_STRING] => 
-    [PATH_TRANSLATED] => C:\TMapTools\Composer\myproject\level1\index.php
+    [PATH_TRANSLATED] => C:\TMapTools\www\_uprazhneniya-s-fajlami-gpx\Sibyx\ProbaSibyx\index.php
     [LOGON_USER] => 
     [LOCAL_ADDR] => ::1
     [INSTANCE_META_PATH] => /LM/W3SVC/11
@@ -65,7 +65,7 @@ Array
     [HTTPS_KEYSIZE] => 
     [HTTPS] => off
     [GATEWAY_INTERFACE] => CGI/1.1
-    [DOCUMENT_ROOT] => C:\TMapTools\Composer\myproject\level1
+    [DOCUMENT_ROOT] => C:\TMapTools\www\_uprazhneniya-s-fajlami-gpx\Sibyx\ProbaSibyx
     [CONTENT_TYPE] => 
     [CONTENT_LENGTH] => 0
     [CERT_SUBJECT] => 
@@ -76,7 +76,7 @@ Array
     [AUTH_USER] => 
     [AUTH_PASSWORD] => 
     [AUTH_TYPE] => 
-    [APPL_PHYSICAL_PATH] => C:\TMapTools\Composer\myproject\level1\
+    [APPL_PHYSICAL_PATH] => C:\TMapTools\www\_uprazhneniya-s-fajlami-gpx\Sibyx\ProbaSibyx\
     [APPL_MD_PATH] => /LM/W3SVC/11/ROOT
     [WEBSOCKET_VERSION] => 13
     [HTTP_SEC_FETCH_DEST] => document
@@ -95,9 +95,10 @@ Array
     [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
     [HTTP_CONTENT_LENGTH] => 0
     [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
     [FCGI_ROLE] => RESPONDER
     [PHP_SELF] => /index.php
-    [REQUEST_TIME_FLOAT] => 1775713390.3439
-    [REQUEST_TIME] => 1775713390
+    [REQUEST_TIME_FLOAT] => 1775721077.5609
+    [REQUEST_TIME] => 1775721077
 )
 
