@@ -1,11 +1,12 @@
 ﻿<?php
 
+
 use phpGPX\phpGPX;
 
 // Загрузка GPX-файла
 $gpx = new phpGPX();
-$fileName=$SiteRoot.'/myTrack.gpx';	
 $fileName=$SiteRoot.'/sibyxTrack.gpx';	
+$fileName=$SiteRoot.'/myTrack.gpx';	
 $file = $gpx->load($fileName);
 echo $fileName.'<br>';
 
@@ -22,8 +23,9 @@ foreach ($file->tracks as $track)
       echo "Точка: ". 
       htmlspecialchars($point->latitude) . ", " . 
       htmlspecialchars($point->longitude) . ", " . 
+      htmlspecialchars($point->elevation) . ", " . 
+      htmlspecialchars($point->colorline) . ", " . 
       htmlspecialchars($point->time->format('Y-m-d H:i:s'))."<br>";
     }
   }
 }
-

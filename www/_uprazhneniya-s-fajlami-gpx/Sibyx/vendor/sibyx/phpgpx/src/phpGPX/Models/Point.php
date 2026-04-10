@@ -44,6 +44,13 @@ class Point implements Summarizable
 	public $elevation;
 
 	/**
+	 * --Elevation (in meters) of the point.
+	 * Nodefine [Original GPX 1.1 attribute].
+	 * @var string|null
+	 */
+	public $colorline;
+
+	/**
 	 * Creation/modification timestamp for element. Date and time in are in Univeral Coordinated Time (UTC), not local time!
 	 * Fractional seconds are allowed for millisecond timing in tracklogs.
 	 * @var \DateTime|null
@@ -203,6 +210,7 @@ class Point implements Summarizable
 		$this->latitude = null;
 		$this->longitude = null;
 		$this->elevation = null;
+	  $this->colorline = null;
 		$this->time = null;
 		$this->magVar = null;
 		$this->geoidHeight = null;
@@ -245,6 +253,7 @@ class Point implements Summarizable
 			'lat' => (float) $this->latitude,
 			'lon' => (float) $this->longitude,
 			'ele' => SerializationHelper::floatOrNull($this->elevation),
+			'color' => SerializationHelper::stringOrNull($this->colorline),
 			'time' => DateTimeHelper::formatDateTime($this->time, phpGPX::$DATETIME_FORMAT, phpGPX::$DATETIME_TIMEZONE_OUTPUT),
 			'magvar' => SerializationHelper::floatOrNull($this->magVar),
 			'geoidheight' => SerializationHelper::floatOrNull($this->geoidHeight),

@@ -7,9 +7,9 @@
   <!-- <trkseg> -->
   <trkseg>
     <trkpt lat="61.8432667013" lon="34.3725032452"><ele>71.76</ele><time>2025-08-10T07:31:51Z</time></trkpt>
-    <trkpt lat="61.8439234234" lon="34.3724057637"><ele>75.60</ele><time>2025-08-10T07:35:32Z</time></trkpt>
+    <trkpt lat="61.8439234234" lon="34.3724057637"><ele>75.60</ele><time>2025-08-10T07:35:32Z</time><color>red</color></trkpt>
     <trkpt lat="61.8438809272" lon="34.3723446596"><ele>77.52</ele><time>2025-08-10T07:35:55Z</time></trkpt>
-    <trkpt lat="61.8449408188" lon="34.3792157248"><ele>84.73</ele><time>2025-08-10T07:50:04Z</time></trkpt>
+    <trkpt lat="61.8449408188" lon="34.3792157248"><ele>84.73</ele><time>2025-08-10T07:50:04Z</time><color>#FF0000</color></trkpt>
     <trkpt lat="61.8432667013" lon="34.3725032452"><ele>71.76</ele><time>2025-08-10T08:05:16Z</time></trkpt>
   </trkseg>
   <!-- </trkseg> -->

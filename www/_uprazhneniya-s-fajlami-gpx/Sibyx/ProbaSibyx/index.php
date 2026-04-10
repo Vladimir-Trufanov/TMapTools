@@ -34,6 +34,7 @@ require $SiteAbove.'/vendor/autoload.php';
 $mode=0;    // создание файла с нуля
 //$mode=1;    // показ статистических данных по файлу GPX
 //$mode=2;    // вывод точек трека
+//$mode=3;    // вывод точек трека c помощью simplexml_load_file
 
 if ($mode==0)
 {
@@ -49,4 +50,9 @@ else if ($mode==2)
 {
   echo "<br>2. Вывод точек трека из файла GPX:".'<br>';
   require_once 'OutputTrackPoints.php';
+}
+else if ($mode==3)
+{
+  echo "<br>3. Вывод точек трека c помощью simplexml_load_file:".'<br>';
+  require_once 'SimplexmlLoad.php';
 }

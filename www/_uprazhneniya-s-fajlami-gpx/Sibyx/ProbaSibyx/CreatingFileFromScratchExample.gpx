@@ -5,7 +5,7 @@
     <link href="https://sibyx.github.io/phpgpx">
       <text>phpGPX Docs</text>
     </link>
-    <time>2026-04-09T07:51:17+00:00</time>
+    <time>2026-04-10T19:06:33+00:00</time>
   </metadata>
   <trk>
     <name>Несколько случайных точек в логическом порядке. Входной массив должен быть уже упорядочен!</name>
@@ -14,23 +14,28 @@
     <trkseg>
       <trkpt lat="61.8432667013" lon="34.3725032452">
         <ele>0</ele>
-        <time>2026-04-09T07:52:17+00:00</time>
+        <color>blue</color>
+        <time>2026-04-10T19:07:33+00:00</time>
       </trkpt>
       <trkpt lat="61.8439234234" lon="34.3724057637">
         <ele>10</ele>
-        <time>2026-04-09T07:53:17+00:00</time>
+        <color>red</color>
+        <time>2026-04-10T19:08:33+00:00</time>
       </trkpt>
       <trkpt lat="61.8438809272" lon="34.3723446596">
         <ele>42.42</ele>
-        <time>2026-04-09T07:54:17+00:00</time>
+        <color>#0000FF</color>
+        <time>2026-04-10T19:09:33+00:00</time>
       </trkpt>
       <trkpt lat="61.8449408188" lon="34.3792157248">
         <ele>12</ele>
-        <time>2026-04-09T07:55:17+00:00</time>
+        <color>#FF0000</color>
+        <time>2026-04-10T19:10:33+00:00</time>
       </trkpt>
       <trkpt lat="61.8432667013" lon="34.3725032452">
         <ele>0</ele>
-        <time>2026-04-09T07:56:17+00:00</time>
+        <color>blue</color>
+        <time>2026-04-10T19:11:33+00:00</time>
       </trkpt>
     </trkseg>
   </trk>

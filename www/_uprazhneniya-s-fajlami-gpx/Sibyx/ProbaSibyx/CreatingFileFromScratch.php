@@ -12,30 +12,35 @@ $sample_data = [
 		'longitude' => 34.3725032452,
 		'latitude' => 61.8432667013,
 		'elevation' => 0,
+		'colorline' => 'blue',
 		'time' => new \DateTime("+ 1 MINUTE")
 	],
 	[
 		'latitude' => 61.8439234234,
 		'longitude' => 34.3724057637,
 		'elevation' => 10.0,
+		'colorline' => "red",
 		'time' => new \DateTime("+ 2 MINUTE")
 	],
 	[
 		'latitude' => 61.8438809272,
 		'longitude' => 34.3723446596,
 		'elevation' => 42.42,
+		'colorline' => "#0000FF",
 		'time' => new \DateTime("+ 3 MINUTE")
 	],
 	[
 		'latitude' => 61.8449408188,
 		'longitude' => 34.3792157248,
 		'elevation' => 12,
+		'colorline' => '#FF0000',
 		'time' => new \DateTime("+ 4 MINUTE")
 	],
 	[
 		'latitude' => 61.8432667013,
 		'longitude' => 34.3725032452,
 		'elevation' => 0,
+		'colorline' => 'blue',
 		'time' => new \DateTime("+ 5 MINUTE")
 	]
 ];
@@ -84,6 +89,7 @@ foreach ($sample_data as $sample_point)
 	$point->latitude = $sample_point['latitude'];
 	$point->longitude = $sample_point['longitude'];
 	$point->elevation = $sample_point['elevation'];
+	$point->colorline = $sample_point['colorline'];
 	$point->time = $sample_point['time'];
 
 	$segment->points[] = $point;

@@ -16,6 +16,10 @@ abstract class PointParser
 			'name' => 'elevation',
 			'type' => 'float'
 		],
+		'color' => [
+			'name' => 'colorline',
+			'type' => 'string'
+		],
 		'time' => [
 			'name' => 'time',
 			'type' => 'object'

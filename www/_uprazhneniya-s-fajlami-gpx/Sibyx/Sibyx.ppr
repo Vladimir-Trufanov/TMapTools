@@ -13,162 +13,10 @@ DontOpen=0
 AbsolutePath=0
 FileFormat=0
 ProjectFilesOnly=0
-HTServer=localhost
 Extensions=*.*
 [Project tree]
 Sibyx
 	+Sibyx
-		-phpGPX-master
-			-phpGPX-master
-				-.github
-					-workflows
-						phpGPX-master\phpGPX-master\.github\workflows\codesee-arch-diagram.yml
-						phpGPX-master\phpGPX-master\.github\workflows\phpunit.yml
-					phpGPX-master\phpGPX-master\.github\FUNDING.yml
-				-docs
-					-_data
-						phpGPX-master\phpGPX-master\docs\_data\authors.yml
-					phpGPX-master\phpGPX-master\docs\_config.yml
-					phpGPX-master\phpGPX-master\docs\index.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Helpers-DateTimeHelper.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Helpers-GeoHelper.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Helpers-SerializationHelper.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Bounds.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Collection.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Copyright.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Email.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Extensions.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Extensions-AbstractExtension.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Extensions-TrackPointExtension.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-GpxFile.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Link.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Metadata.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Person.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Point.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Route.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Segment.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Stats.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-StatsCalculator.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Summarizable.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Models-Track.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-BoundsParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-CopyrightParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-EmailParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-ExtensionParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-Extensions-TrackPointExtensionParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-LinkParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-MetadataParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-PersonParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-PointParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-RouteParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-SegmentParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-TrackParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-Parsers-WaypointParser.md
-					phpGPX-master\phpGPX-master\docs\phpGPX-phpGPX.md
-				-example
-					phpGPX-master\phpGPX-master\example\CreateFileFromScratch.php
-					phpGPX-master\phpGPX-master\example\endomondo.gpx
-					phpGPX-master\phpGPX-master\example\Example.php
-					phpGPX-master\phpGPX-master\example\output_waypoint_test.gpx
-					phpGPX-master\phpGPX-master\example\waypoint_test.gpx
-					phpGPX-master\phpGPX-master\example\waypoints_create.php
-					phpGPX-master\phpGPX-master\example\waypoints_load.php
-				-src
-					-phpGPX
-						-Helpers
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\BoundsCalculator.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\DateTimeHelper.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\DistanceCalculator.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\ElevationGainLossCalculator.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\GeoHelper.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Helpers\SerializationHelper.php
-						-Models
-							-Extensions
-								phpGPX-master\phpGPX-master\src\phpGPX\Models\Extensions\AbstractExtension.php
-								phpGPX-master\phpGPX-master\src\phpGPX\Models\Extensions\TrackPointExtension.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Bounds.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Collection.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Copyright.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Email.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Extensions.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\GpxFile.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Link.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Metadata.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Person.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Point.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Route.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Segment.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Stats.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\StatsCalculator.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Summarizable.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Models\Track.php
-						-Parsers
-							-Extensions
-								phpGPX-master\phpGPX-master\src\phpGPX\Parsers\Extensions\TrackPointExtensionParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\BoundsParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\CopyrightParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\EmailParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\ExtensionParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\LinkParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\MetadataParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\PersonParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\PointParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\RouteParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\SegmentParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\TrackParser.php
-							phpGPX-master\phpGPX-master\src\phpGPX\Parsers\WaypointParser.php
-						phpGPX-master\phpGPX-master\src\phpGPX\phpGPX.php
-				-tests
-					-fixtures
-						phpGPX-master\phpGPX-master\tests\fixtures\gps-track.gpx
-						phpGPX-master\phpGPX-master\tests\fixtures\route.gpx
-						phpGPX-master\phpGPX-master\tests\fixtures\timezero.gpx
-					-UnitTests
-						-phpGPX
-							-Helpers
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Helpers\DateTimeHelperTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Helpers\GeoHelperTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Helpers\SerializationHelperTest.php
-							-Parsers
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\AbstractParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\BoundsParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\BoundsParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\BoundsParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\CopyrightParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\CopyrightParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\CopyrightParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\EmailParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\EmailParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\EmailParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\ExtensionParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\ExtensionParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\ExtensionParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\LinkParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\LinkParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\LinkParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PersonParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PersonParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PersonParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PointParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PointParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\PointParserTest.xml
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\SegmentParserTest.json
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\SegmentParserTest.php
-								phpGPX-master\phpGPX-master\tests\UnitTests\phpGPX\Parsers\SegmentParserTest.xml
-					phpGPX-master\phpGPX-master\tests\CreateWaypointTest.php
-					phpGPX-master\phpGPX-master\tests\LoadFileTest.php
-					phpGPX-master\phpGPX-master\tests\LoadRouteFileTest.php
-				phpGPX-master\phpGPX-master\.codeclimate.yml
-				phpGPX-master\phpGPX-master\.gitignore
-				phpGPX-master\phpGPX-master\.php-cs-fixer.php
-				phpGPX-master\phpGPX-master\.travis.yml
-				phpGPX-master\phpGPX-master\CHANGELOG.md
-				phpGPX-master\phpGPX-master\CODE_OF_CONDUCT.md
-				phpGPX-master\phpGPX-master\composer.json
-				phpGPX-master\phpGPX-master\ISSUE_TEMPLATE.md
-				phpGPX-master\phpGPX-master\LICENSE
-				phpGPX-master\phpGPX-master\phpunit.xml
-				phpGPX-master\phpGPX-master\README.md
 		+ProbaSibyx
 			ProbaSibyx\CreatingFileFromScratch.php
 			ProbaSibyx\CreatingFileFromScratchExample.gpx
@@ -180,7 +28,8 @@ Sibyx
 			ProbaSibyx\OutputTrackPoints.php
 			ProbaSibyx\server.log
 			ProbaSibyx\sibyxTrack.gpx
-		-vendor
+			ProbaSibyx\SimplexmlLoad.php
+		+vendor
 			-composer
 				vendor\composer\autoload_classmap.php
 				vendor\composer\autoload_namespaces.php
@@ -193,8 +42,8 @@ Sibyx
 				vendor\composer\InstalledVersions.php
 				vendor\composer\LICENSE
 				vendor\composer\platform_check.php
-			-sibyx
-				-phpgpx
+			+sibyx
+				+phpgpx
 					-.github
 						-workflows
 							vendor\sibyx\phpgpx\.github\workflows\codesee-arch-diagram.yml
@@ -247,16 +96,16 @@ Sibyx
 						vendor\sibyx\phpgpx\example\waypoint_test.gpx
 						vendor\sibyx\phpgpx\example\waypoints_create.php
 						vendor\sibyx\phpgpx\example\waypoints_load.php
-					-src
-						-phpGPX
-							-Helpers
+					+src
+						+phpGPX
+							+Helpers
 								vendor\sibyx\phpgpx\src\phpGPX\Helpers\DateTimeHelper.php
 								vendor\sibyx\phpgpx\src\phpGPX\Helpers\DistanceCalculator.php
 								vendor\sibyx\phpgpx\src\phpGPX\Helpers\ElevationGainLossCalculator.php
 								vendor\sibyx\phpgpx\src\phpGPX\Helpers\GeoHelper.php
 								vendor\sibyx\phpgpx\src\phpGPX\Helpers\SerializationHelper.php
-							-Models
-								-Extensions
+							+Models
+								+Extensions
 									vendor\sibyx\phpgpx\src\phpGPX\Models\Extensions\AbstractExtension.php
 									vendor\sibyx\phpgpx\src\phpGPX\Models\Extensions\TrackPointExtension.php
 								vendor\sibyx\phpgpx\src\phpGPX\Models\Bounds.php
@@ -275,7 +124,7 @@ Sibyx
 								vendor\sibyx\phpgpx\src\phpGPX\Models\StatsCalculator.php
 								vendor\sibyx\phpgpx\src\phpGPX\Models\Summarizable.php
 								vendor\sibyx\phpgpx\src\phpGPX\Models\Track.php
-							-Parsers
+							+Parsers
 								-Extensions
 									vendor\sibyx\phpgpx\src\phpGPX\Parsers\Extensions\TrackPointExtensionParser.php
 								vendor\sibyx\phpgpx\src\phpGPX\Parsers\BoundsParser.php
@@ -291,7 +140,7 @@ Sibyx
 								vendor\sibyx\phpgpx\src\phpGPX\Parsers\TrackParser.php
 								vendor\sibyx\phpgpx\src\phpGPX\Parsers\WaypointParser.php
 							vendor\sibyx\phpgpx\src\phpGPX\phpGPX.php
-					-tests
+					+tests
 						-fixtures
 							vendor\sibyx\phpgpx\tests\fixtures\gps-track.gpx
 							vendor\sibyx\phpgpx\tests\fixtures\route.gpx
@@ -340,16 +189,23 @@ Sibyx
 		composer.json
 		composer.lock
 		phpGPX-master.zip
-		Sibyx.ppr
 [Open project files]
 0=ProbaSibyx\index.php
 1=ProbaSibyx\CreatingFileFromScratchExample.gpx
+2=vendor\sibyx\phpgpx\src\phpGPX\Models\Point.php
+3=ProbaSibyx\CreatingFileFromScratch.php
 [Selected Project Files]
 Main=
 Selected=ProbaSibyx\CreatingFileFromScratchExample.gpx
 [ProbaSibyx\index.php]
-TopLine=14
-Caret=3,36
+TopLine=19
+Caret=3,35
 [ProbaSibyx\CreatingFileFromScratchExample.gpx]
-TopLine=1
-Caret=1,1
+TopLine=5
+Caret=13,8
+[vendor\sibyx\phpgpx\src\phpGPX\Models\Point.php]
+TopLine=29
+Caret=19,51
+[ProbaSibyx\CreatingFileFromScratch.php]
+TopLine=77
+Caret=37,92
